@@ -29,9 +29,9 @@ public class HealthData {
 	private String bloodPressure;
 	@NotNull
 	@ManyToOne(fetch = FetchType.LAZY)
-	private UserProfile user;
+	private UserProfile userId;
 
-	public HealthData(UserProfile user) {
-		this.user = user;
+	public HealthData(UserProfile userId) {
+		this.userId = userId;
 	}
 }

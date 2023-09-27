@@ -47,7 +47,7 @@ public class UserController {
 					user.setUsername(userProfile.getUsername());
 					user.setEmail(userProfile.getEmail());
 					user.setDate(userProfile.getEmail());
-					user.setPassword_hash(userProfile.getPassword_hash());
+					user.setPasswordHash(userProfile.getPasswordHash());
 					user.setHeight(userProfile.getHeight());
 					user.setWeight(userProfile.getWeight());
 					return repository.save(user);

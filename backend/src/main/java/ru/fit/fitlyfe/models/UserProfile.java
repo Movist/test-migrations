@@ -23,7 +23,7 @@ public class UserProfile {
 	private String username;
 
 	@Size(min = 6, max = 32, message = "Password should be between 6 and 32 characters")
-	private String password_hash;
+	private String passwordHash;
 
 	@Email
 	@NotEmpty
